@@ -1,0 +1,57 @@
+/*
+AUTHOR NAME    : ANIK ISLAM
+TEMPLETE NAME  : NEXCENT
+VERSION        : 1.0.0
+*/
+
+/* ESSENTIAL SETUP  */
+/* ---------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ROOT VARIABLES  */
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --global-font: 
+}
+
+body{
+    font-family: serif;
+} 
+
+/* FONSTS SET UP  */
+h1{
+    font-size: 64pc;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 16px;
+}
+h6{
+    font-size: 14px;
+}
+
+h1,h2,h3,h4,h5,h6{ 
+    padding: 0;
+    margin: 0;
+}
+
+  
+/*HEADER SECTION START  */
+/*HEADER SECTION END */
+
+  
+/* SECTION START  */
+/* SECTION END */
