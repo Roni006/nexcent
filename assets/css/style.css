@@ -30,7 +30,7 @@ body{
 
 /* FONSTS SET UP  */
 h1{
-    font-size: 64pc;
+    font-size: 64px;
 }
 h2{
     font-size: 36px;
@@ -57,6 +57,11 @@ h1,h2,h3,h4,h5,h6{
     padding: 0 15px;
     margin: 0 auto;
 }
+
+.section-padding{
+    padding: 70px 0;
+}
+
 /* ESSENTIAL SETUP  */
 /* ====================================== */
 
@@ -122,6 +127,35 @@ ul {
 }
 /*HEADER SECTION END */
 
+  
+/*HERO  SECTION START  */
+.hero-section{
+    padding: 70px 0; 
+}
+.hero-title h1{
+    font-weight: 600;
+}
+.hero-title .green{
+    color: var(--green-color);
+}
+.hero-para p{
+    font-size: 16px;
+    padding: 15px 0 30px 0;
+}
+.hero-btn a{
+    color: var(--white-color);
+    background-color: var(--green-color);
+    padding: 15PX 30PX;
+    border-radius: 5px;
+    font-weight: 500;
+}
+/*HERO  SECTION END */
+  
+/*CLIENTS SECTION START  */
+.clients{ 
+
+}
+/*CLIENTS SECTION END */
   
 /* SECTION START  */
 /* SECTION END */
