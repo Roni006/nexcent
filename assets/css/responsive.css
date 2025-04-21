@@ -35,4 +35,10 @@
     .hero-title h1 {
         font-size: 30px;
     }
+    .ct-bottom-title h2{
+        font-size: 30px;
+    }
+    .box-content{
+        width: 100%;
+    }
 }

@@ -6,59 +6,72 @@ VERSION        : 1.0.0
 
 /* ---------------------------------- */
 /* ESSENTIAL SETUP  */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-a{
-    text-decoration: none; 
+
+a {
+    text-decoration: none;
 }
 
 /* ROOT VARIABLES  */
 :root {
-    --global-font: "Inter", sans-serif;; 
+    --global-font: "Inter", sans-serif;
+    ;
     --white-color: #fff;
     --black-color: #000;
     --green-color: #4CAF4F;
 }
 
-body{
+body {
     font-family: var(--global-font);
-} 
+}
 
 /* FONSTS SET UP  */
-h1{
+h1 {
     font-size: 64px;
 }
-h2{
+
+h2 {
     font-size: 36px;
 }
-h3{
+
+h3 {
     font-size: 28px;
 }
-h4{
+
+h4 {
     font-size: 20px;
 }
-h5{
+
+h5 {
     font-size: 16px;
 }
-h6{
+
+h6 {
     font-size: 14px;
 }
 
-h1,h2,h3,h4,h5,h6{ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     padding: 0;
     margin: 0;
 }
-.container{
+
+.container {
     max-width: 1245px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
-.section-padding{
+.section-padding {
     padding: 70px 0;
 }
 
@@ -66,44 +79,52 @@ h1,h2,h3,h4,h5,h6{
 /* ====================================== */
 
 /*HEADER SECTION START  */
-.header-row{
+.header-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 22px 0;
 }
+
 ul {
     margin: 0;
     padding: 0;
 }
-.nav-menus{
+
+.nav-menus {
     display: flex;
 }
-.nav-menus li{
-    list-style: none; 
+
+.nav-menus li {
+    list-style: none;
 }
-.nav-menus li a{
+
+.nav-menus li a {
     text-decoration: none;
     color: var(--black-color);
     padding: 10px 20px;
     font-size: 18px;
-    font-weight: 500; 
+    font-weight: 500;
 }
-.nav-menus li a:hover{
+
+.nav-menus li a:hover {
     color: var(--green-color);
     transition: all 0.3s ease-in-out;
 }
-.header-btns{
+
+.header-btns {
     display: flex;
     column-gap: 15px;
     align-items: center;
-} 
-.header-btns .log{
+}
+
+.header-btns .log {
     color: var(--green-color);
     font-size: 20px;
     font-weight: 500;
 }
-.header-btns .sign{
+
+.header-btns .sign {
     color: var(--white-color);
     font-size: 20px;
     font-weight: 500;
@@ -111,51 +132,85 @@ ul {
     padding: 10px 20px;
     border-radius: 5px;
 }
-.header-right{
+
+.header-right {
     display: flex;
-    align-items: center; 
+    align-items: center;
     column-gap: 20px;
 }
-.header-right i{
+
+.header-right i {
     background: var(--green-color);
     color: var(--white-color);
     font-size: 22px;
     padding: 15px 20px;
-    border-radius: 5px; 
+    border-radius: 5px;
     display: none;
     opacity: 0;
 }
+
 /*HEADER SECTION END */
 
-  
+
 /*HERO  SECTION START  */
-.hero-section{
-    padding: 70px 0; 
+.hero-section {
+    padding: 70px 0;
 }
-.hero-title h1{
+
+.hero-title h1 {
     font-weight: 600;
 }
-.hero-title .green{
+
+.hero-title .green {
     color: var(--green-color);
 }
-.hero-para p{
+
+.hero-para p {
     font-size: 16px;
     padding: 15px 0 30px 0;
 }
-.hero-btn a{
+
+.hero-btn a {
     color: var(--white-color);
     background-color: var(--green-color);
     padding: 15PX 30PX;
     border-radius: 5px;
     font-weight: 500;
 }
-/*HERO  SECTION END */
-  
-/*CLIENTS SECTION START  */
-.clients{ 
 
-}
+/*HERO  SECTION END */
+
+/*CLIENTS SECTION START  */
+ 
 /*CLIENTS SECTION END */
-  
+
+/*CLIENT BOTTOM SECTION START  */
+.ct-bottom{
+    padding: 0 30px;
+    overflow: hidden;
+}
+.box-content {
+    margin-top: 15px; 
+}
+
+.box-title h3 {
+    margin: 15px 0 10px 0;
+}
+ 
+.box-content {
+    margin-top: 50px;
+    width: 350px;
+    margin: 0 auto;
+    padding: 30px;
+    overflow: hidden;
+}
+.shadow{ 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.ct-bottom-para {
+    margin-bottom: 50px;
+}
+/*CLIENT BOTTOM SECTION END */
+
 /* SECTION START  */
 /* SECTION END */
