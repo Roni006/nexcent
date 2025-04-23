@@ -24,6 +24,7 @@ a {
     --white-color: #fff;
     --black-color: #000;
     --green-color: #4CAF4F;
+    --achivement-bg: #f5f7fa;
 }
 
 body {
@@ -74,7 +75,12 @@ h6 {
 .section-padding {
     padding: 70px 0;
 }
-
+.mb-right{
+    margin-right: 15px;
+}
+.mb{
+    margin-bottom: 40px;
+}
 /* ESSENTIAL SETUP  */
 /* ====================================== */
 
@@ -211,6 +217,42 @@ ul {
     margin-bottom: 50px;
 }
 /*CLIENT BOTTOM SECTION END */
+
+/*UNLOCK SECTION START  */
+.unlock-section {
+    overflow: hidden;
+}
+.un-para P{
+    margin: 15px 0 30px 0;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+/*UNLOCK SECTION END */
+
+/*ACHIVEMENT SECTION START  */
+.achivement-section{
+    overflow: hidden;
+    background-color: var(--achivement-bg);
+}
+.achiv-title h2{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.achiv-title h2 span{
+    color: var(--green-color);
+}
+.achiv-para p{
+    font-size: 16px;
+}
+.achivement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+}
+/*ACHIVEMENT SECTION END */
 
 /* SECTION START  */
 /* SECTION END */
