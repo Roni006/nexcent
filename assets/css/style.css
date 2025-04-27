@@ -254,5 +254,19 @@ ul {
 }
 /*ACHIVEMENT SECTION END */
 
+/*CUSTOMER SECTION START  */
+.custo-name H4{
+    padding: 15px 0 8px 0;
+    color: var(--green-color);
+    font-weight: 600;
+}
+.custo-icons {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    margin-top: 30px;
+}
+/*CUSTOMER SECTION END */
+
 /* SECTION START  */
 /* SECTION END */
