@@ -25,6 +25,14 @@
     .unlock-left img {
         width: 100%;
     }
+
+    .customer-img img {
+        width: 100%;
+    }
+
+    .custo-para p {
+        text-align: justify;
+    }
 }
 
 
@@ -36,20 +44,31 @@
     .hero-title h1 {
         font-size: 30px;
     }
-    .ct-bottom-title h2{
+
+    .ct-bottom-title h2 {
         font-size: 30px;
     }
-    .box-content{
+
+    .box-content {
         width: 100%;
     }
-    .un-title h2{
+
+    .un-title h2 {
         font-size: 25px;
+    }
+    .custo-icons{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .custo-icons img{  
+        margin-bottom: 15px;
     }
 }
 
 
-@media(max-width: 375px){
-    .un-title h2{ 
+@media(max-width: 375px) {
+    .un-title h2 {
         text-align: center;
     }
 }
