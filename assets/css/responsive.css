@@ -33,6 +33,15 @@
     .custo-para p {
         text-align: justify;
     }
+
+    .community-para p {
+        width: 100%;
+        text-align: justify;
+    }
+    .community-section .row{
+        padding: 0;
+        margin: 0;
+    }
 }
 
 
@@ -56,12 +65,14 @@
     .un-title h2 {
         font-size: 25px;
     }
-    .custo-icons{
+
+    .custo-icons {
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 10px;
     }
-    .custo-icons img{  
+
+    .custo-icons img {
         margin-bottom: 15px;
     }
 }

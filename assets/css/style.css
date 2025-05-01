@@ -25,6 +25,9 @@ a {
     --black-color: #000;
     --green-color: #4CAF4F;
     --achivement-bg: #f5f7fa;
+    --community-box-bg: #f5f7fa;
+    --community-box-shadow: 0px 8px 16px rgba(171, 190, 209, 0.4);
+
 }
 
 body {
@@ -267,6 +270,42 @@ ul {
     margin-top: 30px;
 }
 /*CUSTOMER SECTION END */
+
+
+/*COMMUNITY SECTION START  */
+.community-title h2 { 
+    margin-bottom: 15px;
+}
+.community-para p { 
+    width: 628px;
+    margin: 0 auto;
+}
+.community-content{
+    margin-top: 50px;
+    background-color: var(--community-box-bg);
+    padding: 25px;
+    text-align: center;
+    box-shadow: var(--community-box-shadow);
+    border-radius: 15px;
+}
+.community-content .box-text p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.box-btn a {
+     color: var(--green-color);
+     font-size: 20px;
+     font-weight: 700;
+}
+.box-btn a i{
+    margin-left: 5px;
+}
+.box-btn:hover i{
+    padding-left: 8px;
+}
+/*COMMUNITY SECTION END */
+
 
 /* SECTION START  */
 /* SECTION END */
