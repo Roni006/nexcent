@@ -27,6 +27,8 @@ a {
     --achivement-bg: #f5f7fa;
     --community-box-bg: #f5f7fa;
     --community-box-shadow: 0px 8px 16px rgba(171, 190, 209, 0.4);
+    --footer-bg: #263238;
+    --footer-light-gray: #515b60;
 
 }
 
@@ -307,5 +309,100 @@ ul {
 /*COMMUNITY SECTION END */
 
 
-/* SECTION START  */
-/* SECTION END */
+/*FRAME SECTION START  */
+.frame-section{
+    background-color: var(--achivement-bg);
+    overflow: hidden;
+}
+.frame-content .frame-title h1{
+    margin: 0 auto;
+    font-weight: 600;
+    line-height: 76px;
+    margin-bottom: 32px;
+}
+.frame-content .frame-btn a{
+    background-color: var(--green-color);
+    display: inline-block;
+    padding: 15px 30px;
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+.frame-content .frame-btn a i {
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+/*FRAME SECTION END */
+
+/*FOOTER SECTION START  */
+.footer-section{
+    background-color: var(--footer-bg);
+    padding: 65px 0;
+} 
+.footer-text{
+    color: var(--white-color);
+    padding: 40px 0 30px 0;
+}
+.footer-icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-icons .single-icon{
+    height: 32px;
+    width: 32px;
+    background-color: var(--green-color); 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.footer-icons .single-icon i{
+    color: var(--white-color);
+    font-size: 20px;
+} 
+.footer-title h4{
+    color: var(--white-color);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer-menus ul li{
+    list-style: none;
+}
+.footer-menus ul li a{
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 0;
+    display: block;
+    transition: 0.2s;
+}
+.footer-menus ul li a:hover{
+    color: var(--green-color);
+}
+.input{
+    display: inline-flex;
+    gap: 10px;
+    background-color: var(--footer-light-gray);
+    padding: 10px 12px;
+    border-radius: 5px;
+    align-items: center;
+}
+.input i{
+    color: var(--white-color);
+    font-size: 20px;
+    cursor: pointer;
+}
+::placeholder{
+    color: var(--white-color);
+} 
+input{
+    background: transparent;
+    border: none;
+    padding: 0 ;
+    outline: none;
+    color: var(--white-color);
+} 
+/*FOOTER SECTION END */
